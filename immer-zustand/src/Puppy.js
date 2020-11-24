@@ -1,5 +1,5 @@
 import React from 'react';
-import { usePuppyStore } from './App';
+import { usePuppyStore } from './store/index';
 import shallow from 'zustand/shallow';
 
 export default function Puppy() {
